@@ -72,11 +72,8 @@ header{
   text-decoration: none;
 }
 
-
 .riga{
   margin-top: 15px;
-  margin-bottom: 15px;
-
   font-family: 'Lato', sans-serif;
   color: black;
   font-size: 14px;
@@ -96,7 +93,7 @@ aside{
 }
 
 .widget{
-  margin-bottom: 9%;
+  margin-bottom: 15px;
   border-radius: 5px;
   background-color: white;
 }
@@ -106,7 +103,7 @@ aside{
   padding: 5%;
 }
 
-img{
+aside img{
   float: left;
 }
 
@@ -117,6 +114,10 @@ main{
   border-radius: 5px;
 }
 
+main .widget h2{
+  text-shadow: 2px 2px #0000004a;
+}
+
 footer{
   text-align: center;
   height: 100px;
@@ -125,7 +126,20 @@ footer{
   border-radius: 5px;
 }
 
-footer span{
+footer #autore{
   font-style: oblique;
   color: grey;
+  margin: 0 2%;
+  border-bottom: solid 1px grey;
+}
+
+footer #footer-images{
+  width: 100%;
+  height: 80px;
+  margin: 3px auto;
+}
+
+.footer-img-dim{
+  width: 40px;
+  height: 40px;
 }
