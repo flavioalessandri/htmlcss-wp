@@ -1,0 +1,93 @@
+/* foglio di stile */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("../img/wood.jpg");
+  background-size: cover;
+}
+
+
+#container{
+  background-color: lightblue;
+  width: 80%;
+  margin: 15px auto;
+}
+
+
+header{
+  position: relative;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 16px;
+  height: 300px;
+  background-color: grey;
+}
+
+#header-main{
+  background-image: url("../img/forest.jpg");
+  background-size: cover;
+  background-position: center;
+  border: 6px solid white;
+  width: 100%;
+  height: 250px;
+}
+
+
+#header-logo{
+  position: absolute;
+  top:50%;
+  left:50%;
+  width: 100px;
+  transform: translate(-50%,-50%);
+}
+
+#header-title{
+  text-align: center;
+}
+
+.riga::after{
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.riga{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+aside{
+  float: left;
+  width:20%;
+
+  /* debug */
+  /* height:200px; */
+  /* background-color: green; */
+}
+
+.widget{
+  background-color: white;
+  text-align: center;
+  margin-bottom: 9%;
+  border-radius: 5px;
+
+}
+
+main{
+  float: left;
+  width:40%;
+  margin: 0 10%;
+  border-radius: 5px;
+
+  height:200px;
+  background-color: red;
+}
+
+footer{
+  height: 200px;
+  background-color: orange;
+  }
